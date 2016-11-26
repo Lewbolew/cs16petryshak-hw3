@@ -7,5 +7,6 @@ public interface SmartArray {
     String operationDescription(); // return current operation name applied to SmartArray
     
     int size(); // return SmartArray size
-   
+
+    Object[] modify();
 }
